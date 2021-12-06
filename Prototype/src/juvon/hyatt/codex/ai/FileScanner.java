@@ -53,9 +53,8 @@ public class FileScanner {
 	}
 	
 	public static void main(String[] args) throws FileNotFoundException {
-
-		//File dir = new File("C:/Users/Juvon/Documents/ReadFiles");
-		String searchUrl = "C:/Users/Juvon/Documents/ReadFiles";
+		
+		String searchUrl = "C:/Users/... (put directory here)";
 		FileScanner fscan = new FileScanner();
 		fscan.Scan(searchUrl);
 	}
